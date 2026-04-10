@@ -14,11 +14,19 @@ Maintenance → Maintenance history of elevators
 Relationships
 
 One Building → Many Floors
+
 One Building → Many Elevators
+
 One Building → Many Elevator Shafts
+
 One Elevator Shaft → One Elevator
-One Elevator ↔ Many Floors (Many-to-Many via Elevator_Floor)
+
+One Elevator ↔ Many Floors 
+
 One Floor → Many Floor Requests
+
 One Floor Request → One Ride
+
 One Elevator → Many Rides
+
 One Elevator → Many Maintenance Records
